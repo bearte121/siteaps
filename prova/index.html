@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergia</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div id="content">       
+  <div id="content">
     <div class="corpo">
-        <div id="content-container">
-            <div class="esquerda"></div>
-            <div class="centro">
-                    <div class="cabecalho">
-                        <h1>Emergia</h1>
-                    </div> 
-                <div class="sumario">
-                    <ul>
-                        <h2>Sumario</h2>
-                        <li><a href="#introdução">Introdução</a></li> <!-- direciona para parte da pagina onde fala sobre o assunto -->
-                        <li><a href="#porque">Para que serve?</a></li>
-                        <li><a href="#obter">Como obter?</a></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>  
-                <h3 id="introdução">O que é emergia</h3>           
-                <p> Emergia é a quantidade total de energia utilizada, direta e indiretamente, para produzir um bem, serviço ou processo. 
-                    Ela considera toda a cadeia de produção, desde a energia solar usada nas plantas até os combustíveis utilizados nas máquinas e transporte.
-                    É medida em emjoules solares (seJ), que representam a energia solar equivalente investida em tudo que foi necessário para gerar algo.</p>
-                <h3 id="porque">Para que serve a emergia?</h3>
-                    <p>A emergia serve para:
-                    - Avaliar o impacto ambiental real de produtos e processos;
-                    - Medir a eficiência ecológica de diferentes sistemas (como energia solar, eólica ou petróleo);
-                    - Apoiar decisões sustentáveis, mostrando quais opções usam menos recursos naturais;
-                    - Planejar o uso eficiente de energia e recursos em projetos ambientais, urbanos e industriais.</p>
-                <h3 id="obter">Como obter a emergia?</h3>
-                    <p>Para calcular a emergia de um processo ou produto, é necessário:
-                        1. Levantar todos os recursos utilizados (energia elétrica, combustíveis, materiais, etc.);
-                        2. Converter cada recurso em energia equivalente usando fatores chamados "transformidades";
-                        3. Somar todas essas energias para obter a emergia total.</p>
-                <h3 id=""></h3>
-            </div>
-            <div class="direita"></div>
+      <div id="content-container">
+        <div class="esquerda">
+          <div class="sumario">
+            <ul>
+              <h2>Sumário</h2>
+              <li><a href="#introducao">Introdução</a></li>
+              <li><a href="#porque">Para que serve?</a></li>
+              <li><a href="#obter">Como obter?</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="centro">
+            <div class="cabecalho">
+                <h1>Emergia</h1>
+            </div>
+                <div id="conteudo-principal">
+                    <h3 id="introducao">O que é emergia</h3>
+                    <p>Emergia é a quantidade total de energia utilizada, direta e indiretamente, para produzir um bem, serviço ou processo...</p>
+                    <h3 id="porque">Para que serve a emergia?</h3>
+                    <p>A emergia serve para: avaliar o impacto ambiental real de produtos e processos...</p>
+                    <h3 id="obter">Como obter a emergia?</h3>
+                    <p>Para calcular a emergia de um processo ou produto, é necessárioergia de um processo ou produto, é necessário...</p>
+                </div>
+            <div class="indicação">
+                <h2>Indicações</h2>
+                <img src="https://m.media-amazon.com/images/I/71jk86XKXDL._SY385_.jpg" alt="a">
+            </div>
+        </div>
+        <div class="direita">
+          <ul class="tamanho-fonte">
+            <h2>Fontes</h2>
+            <li><button id="fonte-grande"></button><span class="circulo"></span>Grande</li>
+            <li><button id="fonte-padrao"></button><span class="circulo"></span>Padrão</li>
+            <li><button id="fonte-pequena"></button><span class="circulo"></span>Pequena</li>
+          </ul>
+          <ul class="cor-site">
+            <h2>Cores</h2>
+            <li><button id="cor-claro"></button><span class="circulo"></span>Claro</li>
+            <li><button id="cor-escuro"></button><span class="circulo"></span>Escuro</li>
+          </ul>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
